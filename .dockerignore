@@ -1,0 +1,9 @@
+node_modules
+.git
+.env
+rentalx875.pem
+.vscode
+tmp/*
+coverage
+!tmp/.gitkeep
+dist
