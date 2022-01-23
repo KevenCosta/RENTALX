@@ -33,7 +33,6 @@ jobs:
           target: "~/app/RENTALX"
           
       - name: Update API
-      - name: multiple command
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.SSH_HOST }}
